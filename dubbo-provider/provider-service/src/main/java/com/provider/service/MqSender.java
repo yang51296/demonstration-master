@@ -1,0 +1,27 @@
+package com.provider.service;
+
+import com.alibaba.dubbo.config.annotation.Service;
+import com.provider.rpc.IMqSender;
+import org.springframework.amqp.core.AmqpTemplate;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+import java.util.Date;
+
+/**
+ * Created by hp on 2018/5/7.
+ */
+@Component
+@Service(version = "0.1")
+public class MqSender implements IMqSender {
+    @Autowired
+    private AmqpTemplate rabbitTemplate;
+
+    @Override
+    public void send(String context) {
+        System.out.println("Sender : " + context);
+        this.rabbitTemplate.convertAndSend("dubbo-mq-demonstration", context);
+    }
+
+
+}
