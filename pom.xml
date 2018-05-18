@@ -47,7 +47,7 @@
     <swagger>2.2.2</swagger>
     <javax.persistence>1.0.2</javax.persistence>
     <jackson>3.0.7.Final</jackson>
-    <spring-cloud.version>Edgware.SR2</spring-cloud.version>
+    <spring-cloud.version>Dalston.SR1</spring-cloud.version>
   </properties>
   <!-- 版本说明：这里统一管理依赖的版本号 -->
   <dependencyManagement>
@@ -231,4 +231,15 @@
       </plugins>
     </pluginManagement>
   </build>
+
+  <repositories>
+    <repository>
+      <id>spring-milestones</id>
+      <name>Spring Milestones</name>
+      <url>https://repo.spring.io/milestone</url>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+    </repository>
+  </repositories>
 </project>

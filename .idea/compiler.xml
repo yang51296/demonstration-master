@@ -20,7 +20,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
-      <module name="cloud-eureka" target="1.7" />
+      <module name="cloud-eureka" target="1.8" />
       <module name="common-utils" target="1.7" />
       <module name="common-utils-profile" target="1.7" />
       <module name="common-utils-rabbitmq" target="1.7" />
