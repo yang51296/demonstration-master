@@ -16,6 +16,8 @@
     <module>common-utils-rabbitmq</module>
     <module>config-server</module>
     <module>cloud-eureka</module>
+    <module>eureka-provider</module>
+    <module>eureka-consumer</module>
   </modules>
 
   <name>demonstration</name>

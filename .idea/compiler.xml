@@ -12,6 +12,8 @@
         <module name="common-utils-rabbitmq" />
         <module name="config-server" />
         <module name="consumer-controller" />
+        <module name="eureka-consumer" />
+        <module name="eureka-provider" />
         <module name="provider-dao" />
         <module name="provider-model" />
         <module name="provider-pojo" />
@@ -29,6 +31,8 @@
       <module name="demonstration-master" target="1.7" />
       <module name="dubbo-consumer" target="1.7" />
       <module name="dubbo-provider" target="1.7" />
+      <module name="eureka-consumer" target="1.7" />
+      <module name="eureka-provider" target="1.7" />
       <module name="provider-dao" target="1.7" />
       <module name="provider-model" target="1.7" />
       <module name="provider-pojo" target="1.7" />
