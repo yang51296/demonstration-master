@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/cloud-eureka/cloud-eureka.iml" filepath="$PROJECT_DIR$/cloud-eureka/cloud-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-zuul/cloud-zuul.iml" filepath="$PROJECT_DIR$/cloud-zuul/cloud-zuul.iml" />
       <module fileurl="file://$PROJECT_DIR$/common-utils/common-utils.iml" filepath="$PROJECT_DIR$/common-utils/common-utils.iml" />
       <module fileurl="file://$PROJECT_DIR$/common-utils-profile/common-utils-profile.iml" filepath="$PROJECT_DIR$/common-utils-profile/common-utils-profile.iml" />
       <module fileurl="file://$PROJECT_DIR$/common-utils-rabbitmq/common-utils-rabbitmq.iml" filepath="$PROJECT_DIR$/common-utils-rabbitmq/common-utils-rabbitmq.iml" />

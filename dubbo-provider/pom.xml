@@ -88,7 +88,38 @@
                 <version>${mq-version}</version>
 
             </dependency>
+
+
+            <dependency>
+                <groupId>org.eclipse.persistence</groupId>
+                <artifactId>javax.persistence</artifactId>
+                <version>2.1.0</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
+    <build>
+
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.5.1</version>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                    <encoding>utf-8</encoding>
+                    <compilerVersion>1.7</compilerVersion>
+                    <compilerArgument>-Xlint:all</compilerArgument>
+                    <showWarnings>true</showWarnings>
+                    <showDeprecation>true</showDeprecation>
+                    <compilerId>javac</compilerId>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>

@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="cloud-eureka" />
+        <module name="cloud-zuul" />
         <module name="common-utils" />
         <module name="common-utils-profile" />
         <module name="common-utils-rabbitmq" />
@@ -23,21 +24,22 @@
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
       <module name="cloud-eureka" target="1.8" />
+      <module name="cloud-zuul" target="1.7" />
       <module name="common-utils" target="1.7" />
       <module name="common-utils-profile" target="1.7" />
       <module name="common-utils-rabbitmq" target="1.7" />
       <module name="config-server" target="1.8" />
-      <module name="consumer-controller" target="1.7" />
+      <module name="consumer-controller" target="1.8" />
       <module name="demonstration-master" target="1.7" />
-      <module name="dubbo-consumer" target="1.7" />
-      <module name="dubbo-provider" target="1.7" />
+      <module name="dubbo-consumer" target="1.8" />
+      <module name="dubbo-provider" target="1.8" />
       <module name="eureka-consumer" target="1.7" />
       <module name="eureka-provider" target="1.7" />
-      <module name="provider-dao" target="1.7" />
-      <module name="provider-model" target="1.7" />
-      <module name="provider-pojo" target="1.7" />
-      <module name="provider-rpc" target="1.7" />
-      <module name="provider-service" target="1.7" />
+      <module name="provider-dao" target="1.8" />
+      <module name="provider-model" target="1.8" />
+      <module name="provider-pojo" target="1.8" />
+      <module name="provider-rpc" target="1.8" />
+      <module name="provider-service" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

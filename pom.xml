@@ -18,6 +18,7 @@
     <module>cloud-eureka</module>
     <module>eureka-provider</module>
     <module>eureka-consumer</module>
+    <module>cloud-zuul</module>
   </modules>
 
   <name>demonstration</name>

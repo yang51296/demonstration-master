@@ -19,7 +19,7 @@ public class ConsumerDemo {
     @Reference(version="0.1")
     private IAccountRpc iAccountRpc;
 
-    @RequestMapping(value = "/consumerInvoke",method = RequestMethod.POST,produces = MediaType.APPLICATION_JSON_VALUE)
+    @RequestMapping(value = "/consumerInvoke",method = RequestMethod.GET,produces = MediaType.APPLICATION_JSON_VALUE)
     @ApiOperation(value="消费者调用生产者演示", notes="消费者调用生产者演示")
     public String consumerInvoke(){
         List<AccountPojo> accountPojoList = iAccountRpc.findAll();
