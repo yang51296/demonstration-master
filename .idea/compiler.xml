@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="activiti-manage" />
         <module name="cloud-eureka" />
         <module name="cloud-zuul" />
         <module name="common-utils" />
@@ -26,6 +27,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
+      <module name="activiti-manage" target="1.7" />
       <module name="cloud-eureka" target="1.8" />
       <module name="cloud-zuul" target="1.7" />
       <module name="common-utils" target="1.7" />
