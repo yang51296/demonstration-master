@@ -21,7 +21,7 @@
     <module>cloud-zuul</module>
     <module>common-utils-datajpa</module>
     <module>web-manage</module>
-      <module>oauth</module>
+    <module>oauth</module>
   </modules>
 
   <name>demonstration</name>
