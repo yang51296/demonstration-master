@@ -22,6 +22,7 @@
     <module>common-utils-datajpa</module>
     <module>web-manage</module>
     <module>oauth</module>
+    <module>activiti-manage</module>
   </modules>
 
   <name>demonstration</name>
