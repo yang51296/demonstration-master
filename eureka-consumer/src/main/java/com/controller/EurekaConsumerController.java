@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 //name:远程服务名，即spring.application.name配置的名称
 @RestController
+
 public class EurekaConsumerController {
     @Autowired
     private EurekaRemote eurekaRemote;

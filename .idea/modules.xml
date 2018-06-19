@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/cloud-eureka/cloud-eureka.iml" filepath="$PROJECT_DIR$/cloud-eureka/cloud-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-zuul/cloud-zuul.iml" filepath="$PROJECT_DIR$/cloud-zuul/cloud-zuul.iml" />
       <module fileurl="file://$PROJECT_DIR$/common-utils/common-utils.iml" filepath="$PROJECT_DIR$/common-utils/common-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-utils-datajpa/common-utils-datajpa.iml" filepath="$PROJECT_DIR$/common-utils-datajpa/common-utils-datajpa.iml" />
       <module fileurl="file://$PROJECT_DIR$/common-utils-profile/common-utils-profile.iml" filepath="$PROJECT_DIR$/common-utils-profile/common-utils-profile.iml" />
       <module fileurl="file://$PROJECT_DIR$/common-utils-rabbitmq/common-utils-rabbitmq.iml" filepath="$PROJECT_DIR$/common-utils-rabbitmq/common-utils-rabbitmq.iml" />
       <module fileurl="file://$PROJECT_DIR$/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-server/config-server.iml" />
@@ -15,11 +16,14 @@
       <module fileurl="file://$PROJECT_DIR$/dubbo-provider/dubbo-provider.iml" filepath="$PROJECT_DIR$/dubbo-provider/dubbo-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-consumer/eureka-consumer.iml" filepath="$PROJECT_DIR$/eureka-consumer/eureka-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-provider/eureka-provider.iml" filepath="$PROJECT_DIR$/eureka-provider/eureka-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oauth/oauth.iml" filepath="$PROJECT_DIR$/oauth/oauth.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubbo-provider/provider-dao/provider-dao.iml" filepath="$PROJECT_DIR$/dubbo-provider/provider-dao/provider-dao.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubbo-provider/provider-model/provider-model.iml" filepath="$PROJECT_DIR$/dubbo-provider/provider-model/provider-model.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubbo-provider/provider-pojo/provider-pojo.iml" filepath="$PROJECT_DIR$/dubbo-provider/provider-pojo/provider-pojo.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubbo-provider/provider-rpc/provider-rpc.iml" filepath="$PROJECT_DIR$/dubbo-provider/provider-rpc/provider-rpc.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubbo-provider/provider-service/provider-service.iml" filepath="$PROJECT_DIR$/dubbo-provider/provider-service/provider-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web-manage/system1-thymeleaf-web/system1-thymeleaf-web.iml" filepath="$PROJECT_DIR$/web-manage/system1-thymeleaf-web/system1-thymeleaf-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web-manage/web-manage.iml" filepath="$PROJECT_DIR$/web-manage/web-manage.iml" />
     </modules>
   </component>
 </project>

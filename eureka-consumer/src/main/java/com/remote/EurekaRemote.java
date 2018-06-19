@@ -15,4 +15,6 @@ public interface EurekaRemote {
     //需要匹配服务提供者接口名称
     @RequestMapping(value = "/sayHello",method = RequestMethod.POST)
     public String sayHello();
+
+
 }
