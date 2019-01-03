@@ -23,6 +23,7 @@
     <module>web-manage</module>
     <module>oauth</module>
     <module>activiti-manage</module>
+      <module>ImportExport</module>
   </modules>
 
   <name>demonstration</name>

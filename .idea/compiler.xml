@@ -17,6 +17,7 @@
         <module name="consumer-controller" />
         <module name="eureka-consumer" />
         <module name="eureka-provider" />
+        <module name="ImportExport" />
         <module name="oauth" />
         <module name="provider-dao" />
         <module name="provider-model" />
@@ -41,6 +42,7 @@
       <module name="dubbo-provider" target="1.8" />
       <module name="eureka-consumer" target="1.7" />
       <module name="eureka-provider" target="1.7" />
+      <module name="ImportExport" target="1.8" />
       <module name="oauth" target="1.7" />
       <module name="provider-dao" target="1.8" />
       <module name="provider-model" target="1.8" />
